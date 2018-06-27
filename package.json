@@ -14,8 +14,10 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build -H https://infallible-wright-53553b.netlify.com/",
-    "develop": "gatsby develop -H https://infallible-wright-53553b.netlify.com/",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
